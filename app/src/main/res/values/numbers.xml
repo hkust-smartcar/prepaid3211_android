@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="flip_anim_length">500</integer>
+    <integer name="flip_anim_length_half">250</integer>
+    <integer name="camera_distance">8000</integer>
+</resources>

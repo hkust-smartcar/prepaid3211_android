@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Card Tools">
+        <Preference
+            android:key="pref_new_purchase"
+            android:summary="Add a purchase item"
+            android:title="New Purchase" />
+        <Preference
+            android:key="pref_top_up_card"
+            android:summary="Add value to a prepaid card"
+            android:title="Top-up card"/>
+        <Preference
+            android:key="pref_format_card"
+            android:summary="Erase necessary parts on the card and reformat it"
+            android:title="Format card" />
+        <Preference
+            android:key="pref_recalculate_checksum"
+            android:summary="Update the checksum on the card"
+            android:title="Recalculate checksum"/>
+        <Preference
+            android:key="pref_disable_card"
+            android:summary="Disable card by changing the checksum"
+            android:title="Disable card" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="General Settings">
+        <Preference
+            android:key="pref_edit_shared_secret"
+            android:summary="Change how the checksum is calculated"
+            android:title="Edit shared secret" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_switch_enable_admin_tools"
+            android:title="Enable admin tools" />
+    </PreferenceCategory>
+</PreferenceScreen>

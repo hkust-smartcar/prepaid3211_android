@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dcheungaa.prepaid3211.MainActivity">
+    <item
+        android:id="@+id/action_balance"
+        android:orderInCategory="0"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="Balance" />
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="1"
+        android:enabled="true"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="History" />
+</menu>

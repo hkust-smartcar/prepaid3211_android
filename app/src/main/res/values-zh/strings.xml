@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">預付 3211</string>
+    <string name="action_settings">設定</string>
+    <string name="prompt_approach_card">接觸 3211 預付卡</string>
+    <string name="prompt_approach_card_to_update">接觸卡以更新</string>
+    <string name="info_nfc_disabled">NFC 未啟動</string>
+    <string name="error_no_nfc_support">裝置沒有 NFC 支援</string>
+    <string name="exception_card_communication_failed">突發情況，無法與標籤溝通。</string>
+    <string name="title_activity_new_history">新增歷史紀錄</string>
+    <string name="balance">結餘</string>
+    <string name="history">歷史紀錄</string>
+    <string name="admin">管理員</string>
+    <string name="recent_history">最近歷史紀錄</string>
+    <string name="new_history">新增歷史紀錄</string>
+    <string name="enable_admin_tools">啟用管理員工具</string>
+    <string name="enable">啟用</string>
+    <string name="cancel">取消</string>
+    <string name="enter_shared_secret">輸入共享密碼</string>
+    <string name="no_item">沒有項目</string>
+    <string name="card_tools">預付卡工具</string>
+    <string name="general_settings">一般設定</string>
+</resources>
